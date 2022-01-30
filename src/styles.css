@@ -30,9 +30,13 @@ nav {
   color: #ffffff;
 }
 
+.journal {
+  margin-top: 40px;
+}
+
 .entry {
   display: flex;
-  padding: 40px;
+  padding: 10px 40px;
 }
 
 .entry__image {
@@ -50,12 +54,13 @@ nav {
 .entry__location {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .entry__location img {
   width: 7px;
   height: 10px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .entry__location p {
