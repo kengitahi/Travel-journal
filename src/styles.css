@@ -21,6 +21,7 @@ nav {
   align-items: center;
   justify-content: center;
   height: 60px;
+  margin-bottom: 40px;
 }
 
 .nav__logo {
@@ -36,7 +37,8 @@ nav {
 }
 
 .journal {
-  margin-top: 40px;
+  width: 80%;
+  margin: auto;
 }
 
 .entry {
@@ -45,7 +47,6 @@ nav {
 }
 
 .entry__image {
-  flex-grow: 1;
   width: 25%;
   border-radius: 10px;
   margin-right: 20px;
@@ -53,7 +54,6 @@ nav {
 }
 
 .entry__details {
-  flex-grow: 3;
   padding: 10px;
 }
 
