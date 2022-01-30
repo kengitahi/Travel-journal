@@ -6,6 +6,11 @@
   --font-color: #2b283a;
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -44,6 +49,7 @@ nav {
   width: 25%;
   border-radius: 10px;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 .entry__details {

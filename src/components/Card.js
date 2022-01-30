@@ -18,6 +18,7 @@ function Card(props) {
                     {props.description}
                 </p>
             </div>
+            <hr />
         </article>
     )
 }
